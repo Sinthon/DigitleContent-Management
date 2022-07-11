@@ -17,9 +17,9 @@ namespace DigitleContent_Management.Models
         [ForeignKey(nameof(Lecturer))]
         public string LecturerId { get; set; }
 
-        [InverseProperty("LecturerDobAddress")]
-        public Lecturer LecturerDobAddress { get; set; }
-        [InverseProperty("LecturerPobAddress")]
-        public Lecturer LecturerPobAddress { get; set; }
+        //[InverseProperty("LecturerDobAddress")]
+        //public Lecturer LecturerDobAddress { get; set; }
+        //[InverseProperty("LecturerPobAddress")]
+        //public Lecturer LecturerPobAddress { get; set; }
     }
 }

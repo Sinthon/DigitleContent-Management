@@ -7,6 +7,6 @@ namespace DigitleContent_Management.Models
 {
     public class Student : BaseEntity
     {
-        public Guid StudentName { get; set; }
+        public Guid StudentId { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace DigitleContent_Management.Models
 {
     public class Faculty
     {
-        public Guid FactultyId { get; set; }
+        public Guid FacultyId { get; set; }
         public string FactultyTitle { get; set; }
     }
 }
